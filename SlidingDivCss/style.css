@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+.card{
+ 
+    position: relative;
+    width: 25rem;
+    height: 22rem;
+    border-radius:1rem ;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    overflow: hidden;
+    background-color: rgb(133, 231, 231);
+    
+   
+
+    
+}
+.trans{
+    color:white;
+    padding: 0.8rem;
+    z-index: 1;
+    transition: all 0.8s;
+    font-size: 1.4rem;
+    background: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.4));
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateY(100%);
+
+  
+}
+.card:hover .trans{
+    transform: translateY(0%);
+
+}
+.imag{
+   width: 25rem;
+   height: 20rem;
+}
